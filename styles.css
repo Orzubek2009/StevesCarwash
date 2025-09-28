@@ -1,6 +1,6 @@
 :root {
-    --primary: #569addd2;
-    --secondary: #6478cfd5;
+    --primary: #0080ffb1;
+    --secondary: #5386e596;
     --accent: #ff6600;
     --light: #e1f2f7b3;
     --dark: #212529;
@@ -19,8 +19,8 @@
 
 body {
     background: 
-        linear-gradient(to right, #9acdffb1, #2e63ccd9),
-        url(images/banner_bkg.jpg);
+        linear-gradient(rgba(145, 215, 255, 0.734), rgba(109, 194, 255, 0.773)),
+        url(images/bubbles.png);
     color: var(--dark);
     line-height: 1.6;
 }
@@ -34,6 +34,22 @@ header {
     z-index: 100;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+
+.thumbnaildiv {
+    background: #d3f6ffaf;
+}
+.thumbnail {
+  border-bottom: 25px solid #a0c7ffaf;
+  border-radius: 0 0 65px 65px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+
 
 .container {
     width: 90%;
@@ -98,7 +114,7 @@ section {
 }
 
 .pricing-section {
-    background-color: var(--light);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.686), rgba(246, 253, 255, 0.301));
     padding: 5rem 0;
 }
 
@@ -203,6 +219,10 @@ section {
     margin-bottom: 1rem;
     border-bottom: 2px solid var(--accent);
     padding-bottom: 8px;
+}
+
+.pricing-card p {
+    color: rgb(50, 150, 161);
 }
 
 .pricing-card.featured {
@@ -412,7 +432,7 @@ section {
 }
 
 .stats {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.795);
 }
 
 .stats-grid {
@@ -443,7 +463,7 @@ section {
 }
 
 .testimonials {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.716);
     border-radius: 0 0 88px 88px;
     padding: 0 0 55px 0;
 }
@@ -485,7 +505,7 @@ section {
 }
 
 .contact-info {
-    background-color: rgba(80, 90, 96, 0.429);
+    background-color: rgba(80, 90, 96, 0.853);
     padding: 2rem;
     border-radius: 10px;
 }
@@ -529,6 +549,10 @@ footer {
     color: #ccc;
 }
 
+.footer-section hr {
+    border: 2px solid #ffffff8b;
+}
+
 .copyright {
     text-align: center;
     color: #ccc;
@@ -561,7 +585,7 @@ footer {
 }
 
 .location {
-    background: rgb(234, 245, 255);
+    background: rgba(234, 245, 255, 0.864);
 }
 
 .locationiframe {
@@ -763,4 +787,87 @@ footer {
         font-size: 1em;
         padding: 3px 8px;
     }
+}
+
+
+
+
+
+
+
+/* Add these styles to enhance the coupon section */
+.coupon-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.coupon-card {
+    background: white;
+    border: 2px dashed var(--accent);
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.coupon-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.coupon-title {
+    color: var(--primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.coupon-discount {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--accent);
+    margin: 10px 0;
+}
+
+.coupon-code {
+    background: #f0f8ff;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: monospace;
+    font-weight: bold;
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+.coupon-btn {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.coupon-btn:hover {
+    background: #ff8533;
+    transform: translateY(-2px);
+}
+
+/* Add styles for membership terms */
+.infodiv {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.infodiv ul {
+    list-style: disc;
+    margin-left: 20px;
 }
