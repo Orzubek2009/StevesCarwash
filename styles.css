@@ -1132,11 +1132,12 @@ background-size: cover;
     font-size: 0.8rem;
     font-weight: bold;
     height: 25px;
-    width: 99.5px;
+    width: 103.5px;
 }
 
 /* Ensure featured card hover effect works with tier-specific cards */
 .pricing-card.featured:hover {
     transform: translateY(-5px) scale(1.04); /* Combine scale and translate for featured hover */
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
 }
