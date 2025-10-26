@@ -1132,7 +1132,7 @@ background-size: cover;
     font-size: 0.8rem;
     font-weight: bold;
     height: 25px;
-    width: 102.5px;
+    width: 6.5rem;
 }
 
 /* Ensure featured card hover effect works with tier-specific cards */
@@ -1141,6 +1141,7 @@ background-size: cover;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 
 }
+
 
 
 
