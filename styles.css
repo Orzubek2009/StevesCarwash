@@ -110,7 +110,7 @@ clip-path: polygon(0 0, 44% 0, 6% 100%, 0% 100%);
     z-index: 2; /* Ensures logo and nav are above overlay */
 }
 .phone-number {
-    margin-left: calc(100% - 128px);
+    margin-left: calc(100% - 140px);
   color: rgb(255, 255, 255);
   text-decoration: none;
 
@@ -1141,4 +1141,5 @@ background-size: cover;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 
 }
+
 
