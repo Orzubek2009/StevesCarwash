@@ -1147,3 +1147,10 @@ background-size: cover;
 
 
 
+p > a {
+    color: white;
+}
+
+p > a:hover {
+    color: rgb(0, 132, 255);
+}
