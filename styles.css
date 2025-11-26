@@ -799,7 +799,7 @@ clip-path: polygon(0 0, 100% 0, 100% 95%, 89% 97%, 71% 97%, 40% 96%, 17% 97%, 0 
     flex: 0 0 350px;
     margin-right: 1px;
 }
-@media (max-width: 400px) {
+@media (max-width: 445px) {
     nav ul {
         display: none;
     }
@@ -1157,3 +1157,4 @@ p > a {
 p > a:hover {
     color: rgb(0, 132, 255);
 }
+
