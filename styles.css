@@ -524,12 +524,15 @@ clip-path: polygon(24% 6%, 60% 3%, 100% 2%, 100% 99%, 75% 95%, 25% 95%, 0 100%, 
 .testimonial-card {
     background: white;
     border-radius: 15px;
-    padding: 2rem;
+    padding: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     min-width: 350px;
     flex-shrink: 0;
     transition: transform 0.3s ease;
     border: 1px solid #e0e7ff;
+
+    flex: 0 0 350px;
+    margin-right: 1px;
 }
 
 .testimonial-card:hover {
@@ -796,16 +799,13 @@ clip-path: polygon(0 0, 100% 0, 100% 95%, 89% 97%, 71% 97%, 40% 96%, 17% 97%, 0 
     }
 }
 
-.testimonial-card {
-    flex: 0 0 350px;
-    margin-right: 1px;
-}
+
 @media (max-width: 400px) {
 
     .testimonial-card {
     background: white;
     border-radius: 15px;
-    padding: 2rem;
+    padding: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     min-width: 100px;
     max-width: 300px;
