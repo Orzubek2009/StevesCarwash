@@ -681,10 +681,10 @@ clip-path: polygon(0 0, 100% 0, 100% 95%, 89% 97%, 71% 97%, 40% 96%, 17% 97%, 0 
 
 .testimonials-container {
     position: relative;
-    margin: 2rem 0;
-    padding: 1rem 0;
+    margin: 10px 0;
+    padding: 0px 0;
     overflow-x: hidden;
-
+    zoom: 75%;
 }
 
 
