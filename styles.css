@@ -731,8 +731,11 @@ clip-path: polygon(0 0, 100% 0, 100% 95%, 89% 97%, 71% 97%, 40% 96%, 17% 97%, 0 
 .testimonial-text {
     font-style: italic;
     line-height: 1.6;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
     color: #555;
+    overflow-y: scroll;
+    max-height: 150px;
+    margin-bottom: 30px;
 }
 
 .testimonial-footer {
